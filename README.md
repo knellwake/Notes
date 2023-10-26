@@ -1,6 +1,6 @@
 # MyNotes
 
-[C#Note](CSharp/C# Diagrams.md)
+[C#Note](CSharp/CSharpDiagrams.md)
 
 
 
