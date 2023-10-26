@@ -11,7 +11,7 @@ C#共16中预定义类型：
 
 > 高精度小数类型 ： **decimal** 类型可以准确地表示分数，常用于货币的计算。
 
-![image-20231024135447925](E:/Typora_MD/Image/image-20231024135447925.png)
+![image-20231026165113556](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026165113556.png?token=APYF7FBNZXPGPSY4K2RALTDFHIUMA)
 
 ## 4.6 用户定义类型
 
@@ -125,7 +125,7 @@ Test test = new Test();//声明 并且 初始化
 
 - new 运算符 为任意类型的实例分配 并 初始化内存。
 
-![image-20231026162850031](assets/image-20231026162850031.png)
+![image-20231026164727583](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026164727583.png?token=APYF7FFNAHWIXLGTNWX7CVDFHIT54)
 
 ## 5.7 实例成员
 
