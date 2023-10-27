@@ -1,8 +1,8 @@
 # MyNotes
 
-[C#Note](CSharp/CSharpDiagrams.md)
+[C#Diagrams](CSharp/CSharpDiagrams.md)
 
- [OOP.md](CSharp\OOP.md) 
+ [OOP.md](CSharp/OOP.md) 
 
 # Interview Knowledge Points 
 

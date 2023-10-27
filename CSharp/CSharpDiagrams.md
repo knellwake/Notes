@@ -1,3 +1,7 @@
+---
+typora-root-url: ./..\img
+---
+
 # 第四章  类型、存储和变量
 
 ## 4.4 数据成员和函数成员
@@ -38,7 +42,7 @@ C#共16中预定义类型：
 - 数据放入栈顶 ： **入栈（push）**
 - 从栈顶删除：**出栈（pop）**
 
-![image-20231024140941287](E:/Typora_MD/Image/image-20231024140941287.png)
+![image-20231026191328341](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026191328341.png?token=APYF7FCBYMZLSMQ3T4ZCW6TFHJFBS)
 
 ### 4.7.2 堆
 
@@ -46,7 +50,7 @@ C#共16中预定义类型：
 
 不能显式的删除堆中数据，CLR的GC（自动垃圾回收）判断堆中的某个对象不再被引用使用，就会释放对象。
 
-![image-20231024141501993](E:/Typora_MD/Image/image-20231024141501993.png)
+![image-20231026191518995](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026191518995.png?token=APYF7FHV363WKEENO6PP33LFHJFIM)
 
 ## 4.8 值类型和引用类型
 
@@ -57,19 +61,19 @@ C#共16中预定义类型：
   - 引用（地址）存储在栈，这个地址就指向堆中的数据位置
   - 实际数据存储在堆
 
-![image-20231024142018724](E:/Typora_MD/Image/image-20231024142018724.png)
+![image-20231026191535768](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026191535768.png?token=APYF7FA77IBOIWWG4BL4BGDFHJFJM)
 
 ### 4.8.1 存储引用类型对象的成员
 
 如果一个引用类型是另一个对象（类）的成员：
 
-![image-20231024143000761](E:/Typora_MD/Image/image-20231024143000761.png)
+![image-20231027105704044](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027105704044.png)
 
 引用类型的任何对象，它所有数据成员都存放在堆里，无论它们是值类型还是引用类型！
 
 ### 4.8.2 C#类型的分类
 
-![image-20231024142803671](E:/Typora_MD/Image/image-20231024142803671.png)
+![image-20231027105718422](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027105718422.png)
 
 ## 4.9 变量
 
@@ -87,11 +91,9 @@ C#共16中预定义类型：
 - 变量命名 并关联一种类型
 - 让编译器分配一块内存
 
-![image-20231024144936791](E:/Typora_MD/Image/image-20231024144936791.png)
+![image-20231027105731643](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027105731643.png)
 
-![image-20231024145410281](E:/Typora_MD/Image/image-20231024145410281.png)
-
-![image-20231024145417176](E:/Typora_MD/Image/image-20231024145417176.png)
+![image-20231027105750725](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027105750725.png)
 
 局部变量 无默认初始化值，需要赋值后使用。
 
@@ -149,7 +151,7 @@ Test test = new Test();//声明 并且 初始化
 - 从声明它的那一刻开始存在；
 - 在块内完成执行时结束存在；
 
-![image-20231024163012312](E:/Typora_MD/Image/image-20231024163012312.png)
+![image-20231027112553243](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027112553243.png)
 
 ### 6.3.1 类型推断和var关键字
 
@@ -183,7 +185,7 @@ return;
 - 形参
 - 实参
 
-![image-20231024165509185](E:/Typora_MD/Image/image-20231024165509185.png)
+![image-20231027112606594](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027112606594.png)
 
 ## 6.11 值参数
 
@@ -198,13 +200,17 @@ return;
 
 值类型参数 -> 栈中的值 复制 产生一个独立的数据项 -> 形参的变换不影响 实参
 
+![image-20231027230237651](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027230237651.png?token=APYF7FFDH2Z6UJPA5QMSGALFHPIUY)
+
 ## 6.12 引用参数 ref
 
-- 方法的声明和调用中都使用ref修饰符。
+- 方法的声明和调用中都使用**ref修饰符**。
 - 实参必须是变量，必须被赋值。引用类型的变量可以赋值为Null 或 一个引用；
 
 - 不会在栈上为形参分配内存。
 - 形参将变成实参变量的别名，指向相同的内存位置。
+
+![image-20231027230315411](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027230315411.png?token=APYF7FDKENTA4PJX7EH7RLLFHPIXE)
 
 ## 6.13 引用类型作为值参数 和 引用参数
 
@@ -212,13 +218,13 @@ return;
   - 如果在方法内创建一个新对象并且赋值给形参，将切断形参与实参之间的关联，
     - 并且在方法调用结束后，新对象也将不复存在；
 
-![image-20231024220735078](E:/Typora_MD/Image/image-20231024220735078.png)
+![image-20231027230055616](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027230055616.png?token=APYF7FBTM6DIHJOHBHL2ZDLFHPIOM)
 
 - **引用类型对象 作为 引用参数 传递**
   - 如果在方法内创建一个新对象并且赋值给形参，在方法结束后该对象依然存在，
   - 并且 是实参所引用的值；
 
-![image-20231024221537472](E:/Typora_MD/Image/image-20231024221537472.png)
+![image-20231027230539400](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027230539400.png?token=APYF7FBRCMDB7TA5DPLDA7DFHPJAE)
 
 ## 6.14 输出参数 out
 

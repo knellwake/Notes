@@ -6,4 +6,4 @@
 
 ![在这里插入图片描述](E:/Typora_MD/Image/dc9a9d51104b4a289f4c8c7c7762afb2.png)
 
-![image-20231019173758831](E:/Typora_MD/Image/image-20231019173758831.png)
+![image-20231027093327778](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027093327778.png)

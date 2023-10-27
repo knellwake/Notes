@@ -1,0 +1,57 @@
+# 修改Unity中创建的脚本模板
+
+![image-20231027093048093](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231027093048093.png)
+
+# 添加物体 后默认坐标 修改为（0,0,0）
+
+![image-20231019173708971](E:/Typora_MD/Image/image-20231019173708971.png)
+
+# 更正更改的动画路径
+
+修改了物体内的顺序，发现动画不动了  ->  手动更改动画路径
+
+![image-20231027094001264](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027094001264.png)
+
+# GetComponent 与 TryGetComponent
+
+```c#
+TryGetComponent(out _returnBool);
+```
+
+![image-20231027094516946](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027094516946.png)
+
+# 用于快速测试的 ContextMenu 特性
+
+直接在unity挂载脚本上右键菜单面板，使用这个特性下的方法
+
+```c#
+[ContextMenu("Use the Force")]
+public void AddForce()
+{
+    //给物体添加力作用;
+}
+```
+
+![image-20231027094812084](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027094812084.png)
+
+# 高精度 性能基准秒表 工具 
+
+```c#
+using System.Diagnostics;
+```
+
+![image-20231027095437695](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027095437695.png)
+
+![image-20231027095445834](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027095445834.png)
+
+# Reset + RequireComponent 的强大功能
+
+![image-20231027095818190](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027095818190.png)
+
+![image-20231027095840089](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027095840089.png)
+
+# 在编辑模式下执行
+
+不需要运行，就能执行方法。（禁用脚本后关闭）
+
+![image-20231027100042750](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231027100042750.png)
