@@ -240,7 +240,7 @@ return;
 - 方法内部，方法返回之前，代码中每条可能的路径都必须为所有输出参数赋值。
   - 因为方法内代码**在读取输出参数之前必须对其写入**，所以**不可能使用输出参数把数据传入方法**。
 
-![image-20231024224217007](E:/Typora_MD/Image/image-20231024224217007.png)
+![image-20231028091900012](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028091900012.png)
 
 ## 6.15 参数数组 params
 
@@ -272,39 +272,39 @@ return;
 
 静态字段被所有类的实例共享，所有类实例都访问同一内存位置。
 
-![image-20231024235723683](E:/Typora_MD/Image/image-20231024235723683.png)
+![image-20231028092518001](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028092518001.png)
 
 ## 7.6 静态函数成员
 
 静态成员函数不能访问实例成员，但能访问其他静态成员。
 
-![image-20231025001835412](E:/Typora_MD/Image/image-20231025001835412.png)
+![image-20231028092949166](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028092949166.png)
 
 ## 7.9 常量与静态量
 
 常量即使没有类实例也可以使用，但与静态量不同，常量没有自己的存储位置，而是在编译时被编译器替换。
 
-![image-20231025002207979](E:/Typora_MD/Image/image-20231025002207979.png)
+![image-20231028105923304](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028105923304.png)
 
 ## 7.10 属性
 
 属性是函数成员；它不一定要为数据存储分配内存！
 
-![image-20231025002937567](E:/Typora_MD/Image/image-20231025002937567.png)
+![image-20231028110033691](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110033691.png)
 
-![image-20231025002959965](E:/Typora_MD/Image/image-20231025002959965.png)
+![image-20231028110342903](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110342903.png)
 
 - 常见方式：字段private 封装 ， 属性public 来控制从类的外部对字段的访问。
 
-![image-20231025003420958](E:/Typora_MD/Image/image-20231025003420958.png)
+![image-20231028110455313](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110455313.png)
 
 - 只有一条语句时候：
 
-![image-20231025003552547](E:/Typora_MD/Image/image-20231025003552547.png)
+![image-20231028110502823](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110502823.png)
 
 ### 7.10.6 只读和只写属性
 
-![image-20231025003739045](E:/Typora_MD/Image/image-20231025003739045.png)
+![image-20231028110518436](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110518436.png)
 
 属性比公有字段更好！
 
@@ -312,9 +312,9 @@ return;
 
 属性并非必须和字段关联！
 
-![image-20231025004257428](E:/Typora_MD/Image/image-20231025004257428.png)
+![image-20231028110555309](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110555309.png)
 
-![image-20231025004242566](E:/Typora_MD/Image/image-20231025004242566.png)
+![image-20231028110605873](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110605873.png)
 
 ### 7.10.9 自动实现属性
 
@@ -323,7 +323,7 @@ return;
 - 不声明后备字段——编译器根据属性的类型分配存储。
 - 不能提供访问器的方法体——声明为分号
 
-![image-20231025004955811](E:/Typora_MD/Image/image-20231025004955811.png)
+![image-20231028110635697](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110635697.png)
 
 ### 7.10.10 静态属性
 
@@ -337,12 +337,12 @@ return;
 - 用于初始化类实例的状态
 - 类想在外部创建实例，需要public构造
 
-![image-20231025005513160](E:/Typora_MD/Image/image-20231025005513160.png)
+![image-20231028110740980](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028110740980.png)
 
 ### 7.11.1 带参数的构造函数
 
 - 构造函数可以带参数。
-- 可以被重载
+- 可以被重载。
 
 ### 7.11.2 默认构造函数
 
@@ -423,7 +423,7 @@ this关键字在类中使用，是对当前实例的引用。
 
 是一组get和set访问器，与属性类似；
 
-![image-20231025142333345](E:/Typora_MD/Image/image-20231025142333345.png)
+![image-20231028112931664](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028112931664.png)
 
 ### 7.17.2 索引器和属性
 
@@ -436,13 +436,13 @@ this关键字在类中使用，是对当前实例的引用。
 
 索引器不能被声明为static，它总是实例成员。
 
-![image-20231025142737762](E:/Typora_MD/Image/image-20231025142737762.png)
+![image-20231028112807551](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028112807551.png)
 
 ## 7.18 访问器的访问修饰符
 
-![image-20231025143555386](E:/Typora_MD/Image/image-20231025143555386.png)
+![image-20231028112956823](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028112956823.png)
 
-![image-20231025143653334](E:/Typora_MD/Image/image-20231025143653334.png)
+![image-20231028113006549](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028113006549.png)
 
 # 第八章 类和继承
 
@@ -454,7 +454,7 @@ this关键字在类中使用，是对当前实例的引用。
 - 使用**new修饰符**，让编译器知道是故意屏蔽继承的成员。
 - 也可以屏蔽静态成员。
 
-![image-20231025150332305](E:/Typora_MD/Image/image-20231025150332305.png)
+![image-20231028113032279](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028113032279.png)
 
 ## 8.5 基类访问 base
 
@@ -462,7 +462,7 @@ this关键字在类中使用，是对当前实例的引用。
 
 ## 8.6 使用基类的引用
 
-![image-20231025151005662](E:/Typora_MD/Image/image-20231025151005662.png)
+![image-20231028113156599](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028113156599.png)
 
 基类引用 无法访问 派生类成员。
 
@@ -478,7 +478,7 @@ this关键字在类中使用，是对当前实例的引用。
 - 基类方法 使用 virtual 标注
 - 派生类的方法 使用 override 标注
 
-![image-20231025152700061](E:/Typora_MD/Image/image-20231025152700061.png)
+![image-20231028131222113](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131222113.png)
 
 当使用基类调用派生类的同名方法时，方法调用被传递到派生类执行。
 
@@ -492,7 +492,7 @@ this关键字在类中使用，是对当前实例的引用。
 
 ​	当使用对象基类部分的引用调用一个被重写的方法时，方法的调用被沿派生层次向上溯执行，一直到标记为override的方法的最高派生版本；
 
-![image-20231025153755358](E:/Typora_MD/Image/image-20231025153755358.png)
+![image-20231028131232108](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131232108.png)
 
 在类SecondDerived中，可以使用override或new声明方法Print()。
 
@@ -504,11 +504,11 @@ this关键字在类中使用，是对当前实例的引用。
 
 2. 情况2：使用new声明Print()
 
-![image-20231025154321302](E:/Typora_MD/Image/image-20231025154321302.png)
+![image-20231028131242757](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131242757.png)
 
 ##　８.７　构造函数的执行
 
-![image-20231025161430816](E:/Typora_MD/Image/image-20231025161430816.png)
+![image-20231028131251302](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131251302.png)
 
 创建一个实例的过程：
 
@@ -518,7 +518,7 @@ this关键字在类中使用，是对当前实例的引用。
 
 ３.　执行该类自己的构造
 
-![image-20231025161252365](E:/Typora_MD/Image/image-20231025161252365.png)
+![image-20231028131306844](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131306844.png)
 
 ### 8.7.1 构造函数初始化语句
 
@@ -529,13 +529,13 @@ this关键字在类中使用，是对当前实例的引用。
 - 使用base关键字，指明使用哪个基类构造
 - 使用this关键字，指明使用当前类的哪个构造
 
-![image-20231025161848490](E:/Typora_MD/Image/image-20231025161848490.png)
+![image-20231028131325878](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131325878.png)
 
 
 
-![image-20231025162105617](E:/Typora_MD/Image/image-20231025162105617.png)
+![image-20231028131344314](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131344314.png)
 
-![image-20231025162614347](E:/Typora_MD/Image/image-20231025162614347.png)
+![image-20231028131356173](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131356173.png)
 
 ### 8.7.2 类访问修饰符
 
@@ -545,15 +545,15 @@ this关键字在类中使用，是对当前实例的引用。
   - 只能被自己所在的程序集内的类看到
   - 默认访问级别
 
-![image-20231025163103755](E:/Typora_MD/Image/image-20231025163103755.png)
+![image-20231028131412497](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131412497.png)
 
 ## 8.9 成员访问修饰符
 
-![image-20231025163601132](E:/Typora_MD/Image/image-20231025163601132.png)
+![image-20231028131442636](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131442636.png)
 
-![image-20231025163614746](E:/Typora_MD/Image/image-20231025163614746.png)
+![image-20231028131457161](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131457161.png)
 
-![image-20231025163925170](E:/Typora_MD/Image/image-20231025163925170.png)
+![image-20231028131512777](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131512777.png)
 
 ## 8.10 抽象成员
 
@@ -564,7 +564,7 @@ this关键字在类中使用，是对当前实例的引用。
 - abstract修饰符标记
 - 不能有方法体
 
-![image-20231025164257348](E:/Typora_MD/Image/image-20231025164257348.png)
+![image-20231028131523754](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131523754.png)
 
 **抽象成员只能在抽象类中声明。**
 
@@ -573,7 +573,7 @@ this关键字在类中使用，是对当前实例的引用。
 - 事件
 - 索引器
 
-![image-20231025164439127](E:/Typora_MD/Image/image-20231025164439127.png)
+![image-20231028131533657](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131533657.png)
 
 ## 8.11 抽象类
 
@@ -594,7 +594,7 @@ this关键字在类中使用，是对当前实例的引用。
 
 隐式密封，所以不能继承静态类
 
-![image-20231025165637829](E:/Typora_MD/Image/image-20231025165637829.png)
+![image-20231028131543775](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131543775.png)
 
 # 第九章 表达式和运算符
 
@@ -612,7 +612,7 @@ this关键字在类中使用，是对当前实例的引用。
 
 浅拷贝（浅比较）
 
-![image-20231025170634768](E:/Typora_MD/Image/image-20231025170634768.png)
+![image-20231028131553888](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131553888.png)
 
 string类型也是引用类型，但是比较方式不同，字符串比较它们的长度和大小（区分大小写）；
 
@@ -630,21 +630,19 @@ string类型也是引用类型，但是比较方式不同，字符串比较它�
 
 ## 9.7 递增运算符 和 递减运算符
 
-![image-20231025171544684](E:/Typora_MD/Image/image-20231025171544684.png)
+![image-20231028131604275](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131604275.png)
 
-![image-20231025171633085](E:/Typora_MD/Image/image-20231025171633085.png)
+![image-20231028131614458](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131614458.png)
 
-![image-20231025171704540](E:/Typora_MD/Image/image-20231025171704540.png)
+![image-20231028131622500](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131622500.png)
 
 ## 9.8 条件逻辑运算符
 
-![image-20231025171850292](E:/Typora_MD/Image/image-20231025171850292.png)
-
-![image-20231025172127969](E:/Typora_MD/Image/image-20231025172127969.png)
+![image-20231028131636192](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131636192.png)
 
 ## 9.12 条件运算符
 
-![image-20231025172556893](E:/Typora_MD/Image/image-20231025172556893.png)
+![image-20231028131647825](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131647825.png)
 
 ## 9.16 typeof运算符
 
