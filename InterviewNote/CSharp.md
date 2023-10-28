@@ -6,7 +6,7 @@
 
 # 有哪些主要的数据类型，他们之间是怎样转换的?
 
-![img](E:\Typora_MD\Image\Center.png)
+![image-20231027231552635](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231027231552635.png)
 
 - 隐式类型转换
 - 强制类型转换
