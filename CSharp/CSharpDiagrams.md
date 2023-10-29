@@ -847,7 +847,7 @@ using语句帮助减少意外的运行时错误带来的潜在问题，包装类
 
 ![image-20231025235110406](E:/Typora_MD/Image/image-20231025235110406.png)
 
-委托和类一样，是一种用户自定义类型。
+委托和类一样，是一种用户自定义类型。（引用类型）
 
 类表示数据和方法的集合。
 
@@ -867,3 +867,93 @@ delegate看作一个包含有序方法列表的对象，方法具有相同的签
 
 ## 14.3 声明委托类型
 
+```c#
+delegate void MyDel(int x);
+```
+
+![image-20231029162916999](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029162916999.png)
+
+有返回值类型和签名，也就指定了委托接受方法的形式。
+
+![image-20231029163117761](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029163117761.png)
+
+## 14.4 创建委托对象
+
+委托是引用类型，所以 有引用和对象。  在委托类型声明后，可以声明变量并创建类型的对象。
+
+![image-20231029163450715](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029163450715.png)
+
+可以传入 实例方法 or 静态方法
+
+![image-20231029163458325](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029163458325.png)
+
+快捷方式 ：
+
+![image-20231029163531407](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029163531407.png)
+
+```c#
+delegate void MyDel(int x);//声明委托类型
+MyDel delVar,dVar;//创建两个委托变量
+
+delVar = myTypeClass.Mym1;//创建委托并且保存引用
+dVar = SClass.Otherm2;//创建委托并且保存引用
+```
+
+![image-20231029163819066](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029163819066.png)
+
+## 14.5 给委托赋值
+
+![image-20231029165352692](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165352692.png)
+
+旧的委托对象会被垃圾回收器回收。
+
+![image-20231029165339158](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165339158.png)
+
+## 14.6 组合委托
+
+![image-20231029165456603](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165456603.png)
+
+## 14.7 为委托添加方法
+
+使用 += 运算符，实际发生的是创建了一个新的委托。
+
+![image-20231029165528062](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165528062.png)
+
+![image-20231029165539477](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165539477.png)
+
+##　１４.８　从委托移除方法
+
+为空会抛出异常，可以添加if判断Null。
+
+
+
+![image-20231029165807322](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165807322.png)
+
+## 14.9 调用委托
+
+- 像调用方法一样调用委托
+- 使用委托的invoke方法
+
+![image-20231029170059106](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029170059106.png)
+
+## 14.10 委托的示例
+
+![image-20231029193134231](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029193134231.png)
+
+## 14.11 调用带返回值的委托
+
+![image-20231029193447518](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029193447518.png)
+
+![image-20231029193229216](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029193229216.png)
+
+## 14.12 调用带引用参数的委托
+
+![image-20231029215400336](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029215400336.png)
+
+![image-20231029215344019](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029215344019.png)
+
+![image-20231029215323607](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029215323607.png)
+
+## 14.13 匿名方法
+
+![image-20231029215441406](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029215441406.png)
