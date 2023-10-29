@@ -498,13 +498,13 @@ this关键字在类中使用，是对当前实例的引用。
 
 1. 情况1：使用override声明Print()
 
-![image-20231025154004574](E:/Typora_MD/Image/image-20231025154004574.png)
+![image-20231029105031003](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029105031003.png)
 
 无论是通过派生类自行实例化调用 还是 通过基类调用，都会执行最高派生类中的方法。
 
 2. 情况2：使用new声明Print()
 
-![image-20231028131242757](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231028131242757.png)
+![image-20231029111916291](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029111916291.png)
 
 ##　８.７　构造函数的执行
 
