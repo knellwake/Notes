@@ -855,7 +855,7 @@ using语句帮助减少意外的运行时错误带来的潜在问题，包装类
 
 delegate看作一个包含有序方法列表的对象，方法具有相同的签名和返回类型。
 
-![image-20231026162726550](assets/image-20231026162726550.png)
+![image-20231029143820656](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029143820656.png)
 
 - 方法的列表称为调用列表。
 - 委托持有的方法可以来自任何类或结构，以下两方面匹配：
