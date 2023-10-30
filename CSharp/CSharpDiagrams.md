@@ -962,4 +962,79 @@ dVar = SClass.Otherm2;//创建委托并且保存引用
 
 ![image-20231030101056890](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030101056890.png)
 
+1. 返回类型
+
 ![image-20231030101109295](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030101109295.png)
+
+2. 参数
+
+![image-20231030102004093](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231030102004093.png)
+
+3. params参数
+
+![image-20231030102035566](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030102035566.png)
+
+![image-20231030102048536](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030102048536.png)
+
+### 14.13.3 变量和参数的作用域
+
+![image-20231030102314155](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030102314155.png)
+
+1. 外部变量
+
+![image-20231030102403834](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030102403834.png)
+
+2. 捕获变量的生命周期的扩展
+
+![image-20231030102434713](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231030102434713.png)
+
+## 14.14 Lambda表达式
+
+![image-20231030103210782](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231030103210782.png)
+
+# 第十五章 事件
+
+## 15.1 发布者和订阅者
+
+![image-20231030104428282](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030104428282.png)
+
+当事件被触发时，所有注册到它的方法都会被依次调用。
+
+![image-20231030104614189](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030104614189.png)
+
+事件包含了一个私有的委托。
+
+- 无法直接访问委托。
+
+- 对于事件我们只可以添加、删除、调用事件处理器。
+
+- 事件被触发时，调用委托来依次执行列表中的方法。
+
+![image-20231030105241452](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030105241452.png)
+
+## 15.2 源代码组件概览
+
+![image-20231030105415392](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030105415392.png)
+
+## 15.3 声明事件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 第十六章 接口
+
