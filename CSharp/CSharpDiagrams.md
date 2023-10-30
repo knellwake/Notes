@@ -921,7 +921,7 @@ dVar = SClass.Otherm2;//创建委托并且保存引用
 
 ![image-20231029165539477](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029165539477.png)
 
-##　１４.８　从委托移除方法
+##　14.8 从委托移除方法
 
 为空会抛出异常，可以添加if判断Null。
 
@@ -957,3 +957,9 @@ dVar = SClass.Otherm2;//创建委托并且保存引用
 ## 14.13 匿名方法
 
 ![image-20231029215441406](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231029215441406.png)
+
+### 14.13.1 使用匿名方法
+
+![image-20231030101056890](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030101056890.png)
+
+![image-20231030101109295](/C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231030101109295.png)
