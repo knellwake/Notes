@@ -2,9 +2,34 @@
 typora-root-url: ./..\img
 ---
 
+# 第一章 C#和.Net框架
+
+![image-20231031104536959](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231031104536959.png)
+
+CLR在运行时管理程序的执行，包括：
+
+- 内存管理和垃圾收集
+
+- 代码安全验证
+- 代码执行、线程管理、异常处理
+
+GC（garbage collector，垃圾收集器），自动管理内存，GC自动从内存中删除程序不再访问的对象。
+
+![image-20231031105359718](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231031105359718.png)
+
+![image-20231031105510448](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231031105510448.png)
+
 # 第四章  类型、存储和变量
 
+C# 程序 就是一组类型声明。
+
+简单类型：只能存储单个数据项。
+
+其他类型可以存储多个数据项（ex：数组可以存储多个同类型的数据项）
+
 ## 4.4 数据成员和函数成员
+
+有些类型可以包含许多不同类型的数据项，数据项的个体就称为 **成员**
 
 - 数据成员：保存这个类对象或整个类相关的数据
 - 函数成员：定义了这个类/对象的行为逻辑的实现方法细节
@@ -30,23 +55,31 @@ C#共16中预定义类型：
 
 使用用户定义类型的步骤：先**声明**类型 -> 再**实例化**类型的对象
 
+![image-20231031111013637](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231031111013637.png)
+
 ## 4.7 栈和堆
 程序运行时，数据必须存储在内存中。
 运行中的程序使用两个**内存区域**来存储数据：*栈和堆*
 
 ### 4.7.1 栈
 
-栈是一个内存数组，LIFO（Last-In First-Out，后进先出）的数据结构。
+栈是一个<u>内存数组</u>，LIFO（Last-In First-Out，后进先出）的数据结构。
+
+栈存储：
+
+- 某些类型变量的值
+- 程序当前的执行环境
+- 传递给方法的参数
+
+![image-20231026191328341](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026191328341.png?token=APYF7FCBYMZLSMQ3T4ZCW6TFHJFBS)
 
 - 数据只能从栈顶执行插入和删除
 - 数据放入栈顶 ： **入栈（push）**
 - 从栈顶删除：**出栈（pop）**
 
-![image-20231026191328341](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231026191328341.png?token=APYF7FCBYMZLSMQ3T4ZCW6TFHJFBS)
-
 ### 4.7.2 堆
 
-堆是一块内存区域，在堆中可以分配大块的内存用于存储数据，堆中能任意顺序存入和删除。
+堆是一块<u>内存区域</u>，在堆中可以分配大块的内存用于存储数据，堆中能任意顺序存入和删除。
 
 不能显式的删除堆中数据，CLR的GC（自动垃圾回收）判断堆中的某个对象不再被引用使用，就会释放对象。
 
