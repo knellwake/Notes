@@ -1,4 +1,9 @@
 # Unity基础 API 组件
+
+常用API与组件
+
+SDK导入
+
 ## Unity脚本从唤醒到销毁有着一套比较完整的生命周期，列出系统自带的几个重要的方法。
 
 Awake —> OnEnable —> Start —> FixedUpdate —>Update —> LateUpdate—> OnGUl —> OnDisable —> OnDestroy
@@ -583,6 +588,8 @@ Func的泛型里前者和方法参数类型相同，最后一个与返回值类�
 [Unity学习 - C#委托的介绍(delegate、Action、Func、predicate)-CSDN博客](https://blog.csdn.net/sinat_23383269/article/details/46723103?ops_request_misc=%7B%22request%5Fid%22%3A%22160671212219724847140734%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=160671212219724847140734&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-3-46723103.first_rank_v2_rank_v28p4&utm_term=Unity action func&spm=1018.2118.3001.4449)
 
 # 进程、线程、协程
+
+
 
 ## 简述进程、线程、协程的概念
 
