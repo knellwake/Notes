@@ -1,21 +1,6 @@
-# 有哪些常见的数值类？
-
-简单值类型：包括 整数类型、实数类型、字符类型、布尔类型
-
-复合值类型：包括 结构类型、枚举类型
-
 # 有哪些主要的数据类型，他们之间是怎样转换的?
 
 ![image-20231027231552635](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231027231552635.png)
-
-- 隐式类型转换
-- 强制类型转换
-- 类型转换方法：Convert类
-- as运算符
-
-# C#中基本类型占用的字节数
-
-![image-20231017195106056](E:\Typora_MD\Image\image-20231017195106056.png)
 
 
 # OOP
