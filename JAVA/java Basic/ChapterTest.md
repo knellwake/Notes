@@ -10,6 +10,8 @@ int a = ran.nextInt(6) + 1;
 ```
 
 > random [1 - 7)
+>
+> random[1 - 6]
 
 ```java
 int a = ran.nextInt(6) ;
