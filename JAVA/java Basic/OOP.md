@@ -41,3 +41,8 @@ this. ：所在方法调用者的地址值	(类对象.)
 ![image-20231207112801324](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231207112801324.png)
 
 ![image-20231207112914352](https://raw.githubusercontent.com/GavinGroves/Notes/main/img/image-20231207112914352.png)
+
+# String 内存分配
+
+
+
