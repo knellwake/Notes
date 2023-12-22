@@ -2,8 +2,6 @@
 
 `(int)(Math.random() * (b - a + 1)) + a`
 
-
-
 ```java
 Random ran = new Random();
 int a = ran.nextInt(6) + 1;
@@ -31,14 +29,12 @@ int a = ran.nextInt(6) ;
 >
 > 153 / 10 除法 --> 15.3 只要整数部分  15
 
-
-
 ```
 j *= j+1
 j = j * (j + 1)
 ```
 
-
+![image-20231219131259052](https://raw.githubusercontent.com/knellwake/Notes/main/img/image-20231219131259052.png)
 
 # 日期
 
